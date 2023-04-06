@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Add User Form</title>
+    </head>
+
+    <body>
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add User</legend>
+
+                <div>
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="first-name" id="firstname">
+                </div>
+
+                <div>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="last-name" id="lastname">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email-address" id="email">
+                </div>
+
+                <div>
+                    <label for="status">Status</label>
+                    <select name="status" id="status">
+                        <option value="student">Student</option>
+                        <option value="instructor">Instructor</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Choose your favorite progamming language</p>
+                    <fieldset>
+                        <input type="radio" name="lang" id="html">
+                        <label for="html">HTML</label>
+
+                        <input type="radio" name="lang" id="css">
+                        <label for="css">CSS</label>
+
+                        <input type="radio" name="lang" id="javascript">
+                        <label for="javascript">Javascript</label>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <label for="data">Date</label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+                <div>
+                    <label for="comments">Additional Comments</label>
+                    <div>
+                        <textarea name="comments" id="comments"></textarea>
+                    </div>
+                </div>
+
+
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
